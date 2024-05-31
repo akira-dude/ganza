@@ -1,0 +1,489 @@
+<mjml>
+<mj-head>
+<mj-style>
+	.wwww {
+		width:100%;
+	}
+	.wwww p {
+		width: 82%;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0;
+	}
+	.wwww span {
+		width: 16%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.wwww img {
+		margin: 0 0 0 auto;
+		display: block;
+	}
+
+	.www-col-l td {
+		border: solid #F5F5F5;
+		border-width: 0 5px 10px 10px;
+	}
+	.www-col-r td {
+		border: solid #F5F5F5;
+		border-width: 0 10px 10px 5px;
+	}
+	.b-col.www-col-l td {
+		border-color: #FFFFFF;
+	}
+	.b-col.www-col-r td {
+		border-color: #FFFFFF;
+	}
+	.b-col.www-col-center td {
+		border-left: 10px solid #FFFFFF;
+		border-right: 10px solid #FFFFFF;
+	}
+	.cost-title {
+		font-size: 16px;
+		font-weight: 600;
+	}
+	.cost-rate {
+		color: #F57A43;
+		font-size: 21px;
+		font-weight: 600;
+	}
+	.cost-list {
+		margin-bottom: 5px;
+	}
+	.cost-list-img {
+		display: inline-block;
+		vertical-align: middle;
+		width: 11%;
+	}
+	.cost-list-txt {
+		display: inline-block;
+		font-size: 13px;
+		line-height: 20px;
+		vertical-align: top;
+		width: 87%;
+	}
+	.cost-list-box {
+		min-height: 280px;
+	}
+	.work-item {
+		min-height: 150px;
+	}
+	.work-item.v-2 {
+		min-height: 167px;
+	}
+	.work-item p {
+		font-size: 12px;
+		line-height: 18px;
+		margin: 5px 0 0;
+	}
+	.work-item__title {
+		font-weight: 600;
+	}
+	.work-item p span {
+		color: #F58141;
+	}
+	/*
+	@media (max-width:610px) {
+		.cost-list-box {
+			min-height: 320px;
+		}
+	}
+	@media (max-width:560px) {
+		.work-item.v-2 {
+			min-height: 200px;
+		}
+	}
+	@media (max-width:520px) {
+		.work-item {
+			min-height: 170px;
+		}
+	}
+	@media (max-width:505px) {
+		.work-item.v-2 {
+			min-height: 220px;
+		}
+	}
+	@media (max-width:480px) {
+		.wwww {
+			max-width: auto;
+		}
+		.www-col-r td,
+		.www-col-l td {
+			border-width: 0 10px 5px;
+		}
+		.cost-list-box {
+			min-height: auto;
+		}
+		.work-item {
+			min-height: 200px;
+		}
+		.header-img table {
+			margin: auto;
+		}
+		.header-txt div {
+			text-align: center!important;
+		}
+	}
+	@media (max-width:400px) {
+		.work-item {
+			min-height: 270px;
+		}
+		.work-item.v-2 {
+			min-height: 330px;
+		}
+	}
+	*/
+</mj-style>
+</mj-head>
+<mj-body width="600px">
+<mj-wrapper padding="0">
+
+	<mj-section background-color="#FFFFFF" border="none">
+		<mj-group>
+			<mj-column vertical-align="middle" width="37%">
+				<mj-raw>
+					<a href="https://hansatg.com/" target="_blank" style="font-family: arial;color:#353535;font-size:14px;text-align:center;text-decoration: none;display: block;margin-left: 15px;">
+						<img src="images/img-logo.png" width="151px" style="display:block;" alt="hansatg.com">
+					</a>
+				</mj-raw>
+			</mj-column>
+			<mj-column vertical-align="middle" width="63%">
+				<mj-raw>
+					<a href="https://hansatg.com/catalog/#/query=%D1%81%D0%BE%D1%80%D1%82&skip=0&limit=24" target="_blank" style="font-family: arial;color:#353535;font-size:14px;text-align:center;display: inline-block;margin-right:19px;">
+						<img src="images/icon-header-1.png" height="35px" style="display:block;margin: auto;">
+						<span style="display: block;line-height: 14px;margin-top: 4px;">Сортовой прокат</span>
+					</a>
+					<a href="https://hansatg.com/catalog/#/query=%D0%BB%D0%B8%D1%81%D1%82&skip=0&limit=24" target="_blank" style="font-family: arial;color:#353535;font-size:14px;text-align:center;display: inline-block;margin-right:19px;">
+						<img src="images/icon-header-2.png" height="35px" style="display:block;margin: auto;">
+						<span style="display: block;line-height: 14px;margin-top: 4px;">Листовой прокат</span>
+					</a>
+					<a href="https://hansatg.com/catalog/#/query=%D1%82%D1%80%D1%83%D0%B1%D0%B0&skip=0&limit=24" target="_blank" style="font-family: arial;color:#353535;font-size:14px;text-align:center;display: inline-block;">
+						<img src="images/icon-header-3.png" height="35px" style="display:block;margin: auto;">
+						<span style="display: block;line-height: 14px;margin-top: 4px;">Трубный прокат</span>
+					</a>
+				</mj-raw>
+			</mj-column>
+		</mj-group>
+	</mj-section>
+
+	<mj-section background-color="#F5F6F8" padding="30px 0 0">
+		<mj-column>
+			<mj-text font-size="20px" color="#000000" align="left" padding="0 15px" font-weight="700" font-family="arial">
+				<a href="https://hansatg.com/catalog/nerzhaveyushhaya-stal/" target="_blank" style="color:#000000;display:block;text-decoration:none;">Нержавеющий металлопрокат</a>
+			</mj-text>
+		</mj-column>
+	</mj-section>
+
+	<mj-section background-color="#F5F6F8" padding="7px 0 0">
+		<mj-raw>
+			<span class="grid-1-container">
+				<span class="grid-1-row">
+					<a href="https://hansatg.com/catalog/nerzhaveyushhaya-stal/nerzhaveyushhij-list/" target="_blank" class="grid-1-item" style="display: inline-block;margin-right: 8px;text-decoration:none;">
+						<img src="images/img-grid-1-1.png" style="display: block;margin: auto;"/>
+						<span style="line-height: 10px;color: #353535;font-size: 10px;font-family: arial;display: block;text-align: center;margin-top: 7px;">Нержавеющий <br>лист</span>
+					</a>
+					<a href="https://hansatg.com/catalog/nerzhaveyushhaya-stal/nerzhaveyushhie-truby/" target="_blank" class="grid-1-item" style="display: inline-block;margin-right: 8px;text-decoration:none;">
+						<img src="images/img-grid-1-2.png" style="display: block;margin: auto;"/>
+						<span style="line-height: 10px;color: #353535;font-size: 10px;font-family: arial;display: block;text-align: center;margin-top: 7px;">Нержавеющие <br>трубы</span>
+					</a>
+					<a href="https://hansatg.com/catalog/nerzhaveyushhaya-stal/sortovoj-nerzhaveyushhij-metalloprokat/" target="_blank" class="grid-1-item" style="display: inline-block;margin-right: 8px;text-decoration:none;">
+						<img src="images/img-grid-1-3.png" style="display: block;margin: auto;"/>
+						<span style="line-height: 10px;color: #353535;font-size: 10px;font-family: arial;display: block;text-align: center;margin-top: 7px;">Сортовой нержавеющий <br>прокат</span>
+					</a>
+					<span class="grid-1-item" style="display: inline-block;width: 137px;vertical-align: top;">
+						<span style="color: #000000;font-size: 13px;font-family: arial;display: block;text-align: left;line-height: normal;">12Х18Н10Т / AISI 321, 08Х18Н10 / AISI 304, 08Х17 / AISI 430</span>
+						<a href="https://hansatg.com/catalog/nerzhaveyushhaya-stal/" target="_blank" style="line-height: normal;color: #01A265;font-size: 13px;font-family: arial;display: block;text-align: left;margin-top: 4px;">Смотреть в каталоге</a>
+					</span>
+				</span>
+			</span>
+		</mj-raw>
+	</mj-section>
+	<mj-section background-color="#F5F6F8" padding="15px 0 0">
+		<mj-column>
+			<mj-text font-size="20px" color="#000000" align="left" padding="0 15px" font-weight="700" font-family="arial">
+				<a href="https://hansatg.com/catalog/czvetnye-metally/" target="_blank" style="color:#000000;display:block;text-decoration:none;">Цветной металлопрокат</a>
+			</mj-text>
+		</mj-column>
+	</mj-section>
+	<mj-section background-color="#F5F6F8" padding="7px 0 0">
+		<mj-raw>
+			<span class="grid-1-container">
+				<span class="grid-1-row">
+					<a href="https://hansatg.com/catalog/czvetnye-metally/med/" target="_blank" class="grid-1-item" style="display: inline-block;margin-right: 8px;text-decoration:none;">
+						<img src="images/img-grid-1-4.png" style="display: block;margin: auto;"/>
+						<span style="line-height: 10px;color: #353535;font-size: 10px;font-family: arial;display: block;text-align: center;margin-top: 7px;">Медный прокат</span>
+					</a>
+					<a href="https://hansatg.com/catalog/czvetnye-metally/latun/" target="_blank" class="grid-1-item" style="display: inline-block;margin-right: 8px;text-decoration:none;">
+						<img src="images/img-grid-1-5.png" style="display: block;margin: auto;"/>
+						<span style="line-height: 10px;color: #353535;font-size: 10px;font-family: arial;display: block;text-align: center;margin-top: 7px;">Латунный прокат</span>
+					</a>
+					<a href="https://hansatg.com/catalog/czvetnye-metally/aluminiy-dyural/" target="_blank" class="grid-1-item" style="display: inline-block;margin-right: 8px;text-decoration:none;">
+						<img src="images/img-grid-1-6.png" style="display: block;margin: auto;"/>
+						<span style="line-height: 10px;color: #353535;font-size: 10px;font-family: arial;display: block;text-align: center;margin-top: 7px;">Алюминиевый прокат</span>
+					</a>
+					<span class="grid-1-item" style="display: inline-block;width: 137px;vertical-align: top;">
+						<span style="color: #000000;font-size: 13px;font-family: arial;display: block;text-align: left;line-height: normal;">М1, <br>ЛС59-1, Л63, <br>АД1, АМГ2, АМГ3, АМГ5, АМГ6</span>
+						<a href="https://hansatg.com/catalog/czvetnye-metally/" target="_blank" style="line-height: normal;color: #01A265;font-size: 13px;font-family: arial;display: block;text-align: left;margin-top: 4px;">Смотреть в каталоге</a>
+					</span>
+				</span>
+			</span>
+		</mj-raw>
+	</mj-section>
+	<mj-section background-color="#F5F6F8" padding="15px 0 0">
+		<mj-column>
+			<mj-text font-size="20px" color="#000000" align="left" padding="0 15px" font-weight="700" font-family="arial">
+				<a href="https://hansatg.com/catalog/chernyj-metalloprokat/" target="_blank" style="color:#000000;display:block;text-decoration:none;">Черный металлопрокат</a>
+			</mj-text>
+		</mj-column>
+	</mj-section>
+	<mj-section background-color="#F5F6F8" padding="7px 0 30px">
+		<mj-raw>
+			<span class="grid-1-container">
+				<span class="grid-1-row">
+					<a href="https://hansatg.com/catalog/chernyj-metalloprokat/oczinkovannyj-list/" target="_blank" class="grid-1-item" style="display: inline-block;margin-right: 8px;text-decoration:none;">
+						<img src="images/img-grid-1-7.png" style="display: block;margin: auto;"/>
+						<span style="line-height: 10px;color: #353535;font-size: 10px;font-family: arial;display: block;text-align: center;margin-top: 7px;">Оцинкованный лист</span>
+					</a>
+					<a href="https://hansatg.com/catalog/chernyj-metalloprokat/sortovoj-metalloprokat/" target="_blank" class="grid-1-item" style="display: inline-block;margin-right: 8px;text-decoration:none;">
+						<img src="images/img-grid-1-8.png" style="display: block;margin: auto;"/>
+						<span style="line-height: 10px;color: #353535;font-size: 10px;font-family: arial;display: block;text-align: center;margin-top: 7px;">Сортовой чёрный прокат</span>
+					</a>
+					<a href="https://hansatg.com/catalog/chernyj-metalloprokat/truba-profilnaya/" target="_blank" class="grid-1-item" style="display: inline-block;margin-right: 8px;text-decoration:none;">
+						<img src="images/img-grid-1-9.png" style="display: block;margin: auto;"/>
+						<span style="line-height: 10px;color: #353535;font-size: 10px;font-family: arial;display: block;text-align: center;margin-top: 7px;">Трубы</span>
+					</a>
+					<span class="grid-1-item" style="display: inline-block;width: 137px;vertical-align: top;">
+						<span style="color: #000000;font-size: 13px;font-family: arial;display: block;text-align: left;line-height: normal;">ст3, 09Г2С, 08пс, ст10, ст20</span>
+						<a href="https://hansatg.com/catalog/chernyj-metalloprokat/" target="_blank" style="line-height: normal;color: #01A265;font-size: 13px;font-family: arial;display: block;text-align: left;margin-top: 4px;">Смотреть в каталоге</a>
+					</span>
+				</span>
+			</span>
+		</mj-raw>
+	</mj-section>
+
+	<mj-section background-color="#FFFFFF" border="none" padding="30px 15px">
+		<mj-group>
+			<mj-column vertical-align="middle" width="69%" padding="0">
+				<mj-text font-size="20px" color="#000000" align="left" padding="0" font-weight="700" font-family="arial">О НАС</mj-text>
+				<mj-text font-size="14px" color="#353535" align="left" padding="15px 0" font-weight="400" font-family="arial">Ганза ТГ - команда молодых и энергичных профессионалов в сфере оптовых комплексных поставок нержавеющего, цветного и черного металлопроката. Более 7 лет мы предлагаем клиентам лучшие условия и сервис!</mj-text>
+				<mj-text font-size="14px" color="#353535" align="left" padding="0" font-weight="400" font-family="arial">Полная информация <a href="https://hansatg.com/o-kompanii/" target="_blank" style="color:#01A265;">на нашем сайте</a></mj-text>
+			</mj-column>
+			<mj-column vertical-align="middle" width="31%" padding="0">
+				<mj-image width="141px" align="right" src="images/logo-about.png" padding="0"></mj-image>
+			</mj-column>
+		</mj-group>
+	</mj-section>
+
+	<mj-section background-color="#F5F6F8" padding="30px 15px 15px">
+		<mj-group>
+			<mj-column background-color="#FFFFFF" padding="0" border-right="15px solid #F5F6F8">
+				<mj-text font-family="arial" padding="0" font-size="20px" font-weight="700">
+					<span style="background-color: #C7E7DC; display:block;padding:15px;border-radius:5px">
+						7 <span style="color: #01A265">+</span> <span style="font-size: 14px;">лет</span>
+						<span style="display:block;font-size: 14px;font-weight:400;">на рынке</span>
+					</span>
+				</mj-text>
+			</mj-column>
+			<mj-column padding="0" >
+				<mj-text font-family="arial" padding="0" font-size="20px" font-weight="700">
+					<span style="background-color: #C7E7DC; display:block;padding:15px;border-radius:5px">
+						11 000 <span style="color: #01A265">+</span> <span style="font-size: 14px;">позиций</span>
+						<span style="display:block;font-size: 14px;font-weight:400;">металла в наличии</span>
+					</span>
+				</mj-text>
+			</mj-column>
+			<mj-column padding="0" border-left="15px solid #F5F6F8">
+				<mj-text font-family="arial" padding="0" font-size="20px" font-weight="700">
+					<span style="background-color: #C7E7DC; display:block;padding:15px 7px 15px 15px;border-radius:5px">
+						<span style="font-size: 14px;">по всей</span> России
+						<span style="display:block;font-size: 14px;font-weight:400;">комплексные поставки</span>
+					</span>
+				</mj-text>
+			</mj-column>
+		</mj-group>
+	</mj-section>
+	<mj-section background-color="#F5F6F8" padding="0 15px 30px">
+		<mj-group>
+			<mj-column background-color="#FFFFFF" padding="0" border-right="15px solid #F5F6F8">
+				<mj-text font-family="arial" padding="0" font-size="20px" font-weight="700">
+					<span style="background-color: #C7E7DC;display:block;padding:15px;border-radius:5px;height: 81px;box-sizing: border-box;">
+						<span style="color: #01A265">&lt;</span> 10 <span style="font-size: 14px;">минут</span>
+						<span style="display:block;font-size: 14px;font-weight:400;">на рынке</span>
+					</span>
+				</mj-text>
+			</mj-column>
+			<mj-column padding="0" >
+				<mj-text font-family="arial" padding="0" font-size="20px" font-weight="700">
+					<span style="background-color: #C7E7DC;display:block;padding:15px;border-radius:5px;height: 81px;box-sizing: border-box;">
+						100 <span style="color: #01A265">+</span> <span style="font-size: 14px;">контрактов</span>
+						<span style="display:block;font-size: 14px;font-weight:400;">223-ФЗ и 44-ФЗ</span>
+					</span>
+				</mj-text>
+			</mj-column>
+			<mj-column padding="0" border-left="15px solid #F5F6F8">
+				<mj-text font-family="arial" padding="0" font-size="20px" font-weight="700">
+					<span style="background-color: #C7E7DC;display:block;padding:15px;border-radius:5px;height: 81px;box-sizing: border-box;">
+						топ-10
+						<span style="display:block;font-size: 14px;">грузовладельцев</span>
+						<span style="display:block;font-size: 14px;font-weight:400;margin-top:3px;">ATI.SU по Москве</span>
+					</span>
+				</mj-text>
+			</mj-column>
+		</mj-group>
+	</mj-section>
+	
+	<mj-section background-color="#FFFFFF" padding="30px 0 15px">
+		<mj-column>
+			<mj-text font-size="20px" color="#000000" align="left" padding="0 15px" font-weight="700" font-family="arial">НАШИ ПРЕИМУЩЕСТВА</mj-text>
+		</mj-column>
+	</mj-section>
+	<mj-section background-color="#FFFFFF" padding="0 15px 10px">
+		<mj-group>
+			<mj-column background-color="#FFFFFF" padding="0" border-right="10px solid #FFFFFF">
+				<mj-text font-family="arial" padding="0" font-size="14px" font-weight="400">
+					<a href="https://hansatg.com/oplata/" target="_blank" style="background-color: #F5F6F8;display:block;padding:15px 10px;border-radius:5px;text-decoration:none;color:#000000;">
+						<img src="images/icon-advantages-1.png" height="24px" style="display:block;padding:0 5px 10px">
+						<span style="display:block; line-height: normal;">Отсрочка <br>платежа</span>
+					</a>
+				</mj-text>
+			</mj-column>
+			<mj-column background-color="#FFFFFF" padding="0" border-right="10px solid #FFFFFF">
+				<mj-text font-family="arial" padding="0" font-size="14px" font-weight="400">
+					<a href="https://hansatg.com/catalog/" target="_blank" style="background-color: #F5F6F8;display:block;padding:15px 10px;border-radius:5px;text-decoration:none;color:#000000;">
+						<img src="images/icon-advantages-2.png" height="24px" style="display:block;padding:0 5px 10px">
+						<span style="display:block; line-height: normal;">Комплектация <br>сложных заказов</span>
+					</a>
+				</mj-text>
+			</mj-column>
+			<mj-column background-color="#FFFFFF" padding="0" border-right="10px solid #FFFFFF">
+				<mj-text font-family="arial" padding="0" font-size="14px" font-weight="400">
+					<a href="https://hansatg.com/dostavka/" target="_blank" style="background-color: #F5F6F8;display:block;padding:15px 10px;border-radius:5px;text-decoration:none;color:#000000;">
+						<img src="images/icon-advantages-3.png" height="24px" style="display:block;padding:0 5px 10px">
+						<span style="display:block; line-height: normal;">Первая доставка <br>бесплатно</span>
+					</a>
+				</mj-text>
+			</mj-column>
+			<mj-column background-color="#FFFFFF" padding="0" border-right="0 solid #FFFFFF">
+				<mj-text font-family="arial" padding="0" font-size="14px" font-weight="400">
+					<a href="https://hansatg.com/sertifikaty/" target="_blank" style="background-color: #F5F6F8;display:block;padding:15px 10px;border-radius:5px;text-decoration:none;color:#000000;">
+						<img src="images/icon-advantages-4.png" height="24px" style="display:block;padding:0 5px 10px">
+						<span style="display:block; line-height: normal;">Сертификаты <br>производителей</span>
+					</a>
+				</mj-text>
+			</mj-column>
+		</mj-group>
+	</mj-section>
+	<mj-section background-color="#FFFFFF" padding="0 15px 30px">
+		<mj-group>
+			<mj-column background-color="#FFFFFF" padding="0" border-right="10px solid #FFFFFF">
+				<mj-text font-family="arial" padding="0" font-size="14px" font-weight="400">
+					<a href="https://hansatg.com/uslugi/rezka-v-razmer/" target="_blank" style="background-color: #F5F6F8;display:block;padding:15px 10px;border-radius:5px;text-decoration:none;color:#000000;">
+						<img src="images/icon-advantages-5.png" height="24px" style="display:block;padding:0 5px 10px">
+						<span style="display:block; line-height: normal;">Резка металла <br>в размер</span>
+					</a>
+				</mj-text>
+			</mj-column>
+			<mj-column background-color="#FFFFFF" padding="0" border-right="10px solid #FFFFFF">
+				<mj-text font-family="arial" padding="0" font-size="14px" font-weight="400">
+					<a href="https://hansatg.com/uslugi/ultrazvukovoj-kontrol/" target="_blank" style="background-color: #F5F6F8;display:block;padding:15px 10px;border-radius:5px;text-decoration:none;color:#000000;">
+						<img src="images/icon-advantages-6.png" height="24px" style="display:block;padding:0 5px 10px">
+						<span style="display:block; line-height: normal;">Ультразвуковой <br>контроль</span>
+					</a>
+				</mj-text>
+			</mj-column>
+			<mj-column background-color="#FFFFFF" padding="0" border-right="10px solid #FFFFFF">
+				<mj-text font-family="arial" padding="0" font-size="14px" font-weight="400">
+					<a href="https://hansatg.com/uslugi/upakovka/" target="_blank" style="background-color: #F5F6F8;display:block;padding:15px 10px;border-radius:5px;text-decoration:none;color:#000000;">
+						<img src="images/icon-advantages-7.png" height="24px" style="display:block;padding:0 5px 10px">
+						<span style="display:block; line-height: normal;">Упаковка по <br>требованиям</span>
+					</a>
+				</mj-text>
+			</mj-column>
+			<mj-column background-color="#FFFFFF" padding="0" border-right="0 solid #FFFFFF">
+				<mj-text font-family="arial" padding="0" font-size="14px" font-weight="400">
+					<a href="https://hansatg.com/" target="_blank" style="background-color: #F5F6F8;display:block;padding:15px 10px;border-radius:5px;text-decoration:none;color:#000000;">
+						<img src="images/icon-advantages-8.png" height="24px" style="display:block;padding:0 5px 10px">
+						<span style="display:block; line-height: normal;">Оперативный <br>расчет заказа</span>
+					</a>
+				</mj-text>
+			</mj-column>
+		</mj-group>
+	</mj-section>
+	
+	<mj-section background-color="#F5F6F8" padding="30px 0 0">
+		<mj-column>
+			<mj-text font-size="20px" color="#000000" align="left" padding="0 15px" font-weight="700" font-family="arial">НАМ ДОВЕРЯЮТ</mj-text>
+		</mj-column>
+	</mj-section>
+	<mj-section background-color="#F5F6F8" padding="0 15px 10px">
+		<mj-group>
+			<mj-column background-color="#F5F6F8" padding="0" border-right="10px solid #F5F6F8">
+				<mj-image width="134px" src="images/logo-trust-1.png" padding="0"/>
+			</mj-column>
+			<mj-column background-color="#F5F6F8" padding="0" border-right="10px solid #F5F6F8">
+				<mj-image width="134px" src="images/logo-trust-2.png" padding="0"/>
+			</mj-column>
+			<mj-column background-color="#F5F6F8" padding="0" border-right="10px solid #F5F6F8">
+				<mj-image width="134px" src="images/logo-trust-3.png" padding="0"/>
+			</mj-column>
+			<mj-column background-color="#F5F6F8" padding="0" border-right="0 solid #F5F6F8">
+				<mj-image width="134px" src="images/logo-trust-4.png" padding="0"/>
+			</mj-column>
+		</mj-group>
+	</mj-section>
+
+	<mj-section background-color="#000000" padding="30px 15px 15px">
+		<mj-group>
+			<mj-column padding="0">
+				<mj-text font-family="arial" padding="0" font-size="14px" font-weight="400">
+					<a href="https://hansatg.com/pokupatelyam/kalkulyator-metalloprokata/" target="_blank" style="display:block;color:#FFFFFF;text-decoration:none;">
+						<img src="images/icon-footer-1.png" height="30px" style="display: inline-block;padding: 0 5px 0 0;vertical-align: middle;">
+						<span style="display: inline-block;line-height: normal;vertical-align: middle;">Калькулятор <br>металлопроката</span>
+					</a>
+				</mj-text>
+			</mj-column>
+			<mj-column padding="0">
+				<mj-text font-family="arial" padding="0" font-size="14px" font-weight="400">
+					<a href="mailto:sales@hansatg.com" style="display:block;color:#FFFFFF;text-decoration:none;">
+						<img src="images/icon-footer-2.png" height="30px" style="display: inline-block;padding: 0 5px 0 0;vertical-align: middle;">
+						<span style="display: inline-block;line-height: normal;vertical-align: middle;">sales@hansatg.com</span>
+					</a>
+				</mj-text>
+			</mj-column>
+			<mj-column padding="0">
+				<mj-text font-family="arial" padding="0" font-size="14px" font-weight="400">
+					<a href="tel:84951366223" style="display:block;color:#FFFFFF;text-decoration:none;">
+						<img src="images/icon-footer-3.png" height="30px" style="display: inline-block;padding: 0 5px 0 0;vertical-align: middle;">
+						<span style="display: inline-block;line-height: normal;vertical-align: middle;">8 (495) 136-62-23</span>
+					</a>
+				</mj-text>
+			</mj-column>
+		</mj-group>
+	</mj-section>
+
+	<mj-section background-color="#000000" padding="0 15px 30px">
+		<mj-group>
+			<mj-column padding="0">
+				<mj-text font-family="arial" padding="0" font-size="14px" font-weight="400" align="center">
+					<a href="https://dzen.ru/hansatg" target="_blank" style="display:inline-block;text-decoration:none;margin-right: 15px;">
+						<img src="images/icon-socials-1.png" height="30px" style="display: block;" alt="dzen.ru">
+					</a>
+					<a href="https://t.me/+79623666238" target="_blank" style="display:inline-block;text-decoration:none;margin-right: 15px;">
+						<img src="images/icon-socials-2.png" height="30px" style="display: block;" alt="telegram.com">
+					</a>
+					<a href="https://api.whatsapp.com/send/?phone=%2B79623666238&text&type=phone_number&app_absent=0" target="_blank" style="display:inline-block;text-decoration:none;margin-right: 15px;">
+						<img src="images/icon-socials-3.png" height="30px" style="display: block;" alt="whatsapp.com">
+					</a>
+					<a href="https://vk.com/public201863789" target="_blank" style="display:inline-block;text-decoration:none;">
+						<img src="images/icon-socials-4.png" height="30px" style="display: block;" alt="vk.com">
+					</a>
+				</mj-text>
+			</mj-column>
+		</mj-group>
+	</mj-section>
+
+	
+
+</mj-wrapper>
+</mj-body>
+</mjml>
